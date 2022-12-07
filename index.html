@@ -1,94 +1,283 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="shortcut icon" href="./Logo_Viva_de_Apostas.png" type="image/x-icon" />
-    <title>Viva de Apostas</title>
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css"/>
-    <!--Replace with your tailwind.css once created-->
-    <link href="https://unpkg.com/@tailwindcss/custom-forms/dist/custom-forms.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap");
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Dosis:wght@200;300;400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&family=Signika:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-      html {
-        font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    <link rel="stylesheet" href="./assets/css/com.css">
+
+    <!-- Título da Página -->
+    <title>Protocolo Anti Celulite</title>
+    
+    <style type="text/css">
+      body {
+        color: white;
+        background-image: url("assets/img/bg.jpg");
+        background-color: rgba(0, 0, 0, 0.6);
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        background-blend-mode: darken;
       }
     </style>
+
+    <!-- Meta Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '1236548763591827');
+  fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=1236548763591827&ev=PageView&noscript=1"
+  /></noscript>
+  <!-- End Meta Pixel Code -->
+
+    <meta name="facebook-domain-verification" content="bbxzczxdu4nrqpr06p132fzu80lu2w" />
+
   </head>
+  <body>
 
-  <body class="leading-normal tracking-normal text-indigo-400  bg-fixed" style="background-image: url('header.png');">
-    <div class="h-full">
-      <!--Nav-->
-      <!-- <div class="w-full container mx-auto">
-        <div class="w-full flex items-center justify-between">
-          <a class="flex items-center text-indigo-400 no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="#" style="margin-top: 30px;">
-          Viva de Apostas<span class="bg-clip-text text-transparent bg-gradient-to-r from-green-400 via-pink-500 to-purple-500"></span>
-          </a>
-        </div>
-      </div> -->
+    <header class="py-4">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center">
+            <!-- Imagem Ultrasecreto -->
+            <!-- <img class="img-fluid" src="./assets/img/ultrasecreto.svg"> -->
 
-      <!--Main-->
-      <div class="container pt-24 md:pt-36 mx-auto flex flex-wrap flex-col md:flex-row items-center" style="margin-top: -100px;">
-        <!--Left Col-->
-        <div class="flex flex-col w-full xl:w-2/5 justify-center lg:items-start overflow-y-hidden">
-          <h1 class="my-4 text-3xl md:text-5xl text-white opacity-75 font-bold leading-tight text-center md:text-left">
-            
-            <span class="bg-clip-text text-transparent bg-gradient-to-r from-green-400 via-pink-500 to-purple-500">
-              Comunidade Viva de Apostas
-            </span>
-            
-          </h1>
-          <p class="leading-normal text-base md:text-2xl mb-8 text-center md:text-left">
-            Faça parte do nosso grupo gratuito do Telegram!
-          </p>
+            <!-- Headline -->
+            <h3 class="my-4"><b>Simples Suco de 4 Ingredientes Que <u style="color: red;">Elimina Toda a Celulite</u> em Poucas Semanas</b></h3>
 
-          <form class="bg-gray-900 opacity-75 w-full shadow-lg rounded-lg px-8 pt-6 pb-8 mb-4" action="https://api.sheetmonkey.io/form/tYcdrKC2b2bmSXnM9fKaBx" method="post">
-            <div class="mb-4">
-              <label class="block text-blue-300 py-2 font-bold mb-2" for="emailaddress">
-                Digite seu e-mail e clique no botão abaixo!
-              </label>
-              <input
-                class="shadow appearance-none border rounded w-full p-3 text-gray-700 leading-tight focus:ring transform transition hover:scale-105 duration-300 ease-in-out"
-                name="email"
-                id="emailaddress"
-                type="text"
-                placeholder="você@exemplo.com"
-              />
-            </div>
+            <!-- Headline 2 -->
+            <!-- <h4 class="my-4" style="color: #51ff00"><b>Fique até o final e ganhe um bônus exclusivo!</b></h4> -->
 
-            <div id="cta1" class="flex items-center justify-between pt-4">
-              <a href="https://t.me/vivadeapostas" class="a-btn">
-                <button
-                  class="bg-gradient-to-r from-purple-800 to-green-500 hover:from-pink-500 hover:to-green-500 text-white font-bold py-2 px-4 rounded focus:ring transform transition hover:scale-105 duration-300 ease-in-out"
-                  type="submit" style="height: 80px; width: 190px; border: none; display: flex; align-items: center;">
-                  Quero Participar!
-                  <span style="display: flex; align-items: center; padding: 10px;">
-                    <img src="./telegram.svg">
-                  </span>
-                </button>
+            <!-- VSL -->
+            <div id="vid_6383fe7314bbec000bf32905" style="position:relative;width:100%;padding: 56.25% 0 0;"><img id="thumb_6383fe7314bbec000bf32905" src="https://images.converteai.net/27f37415-44e5-4ac6-a674-7ed2b3e48a82/players/6383fe7314bbec000bf32905/thumbnail.jpg" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;"><div id="backdrop_6383fe7314bbec000bf32905" style="position:absolute;top:0;width:100%;height:100%;-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px);"></div></div><script type="text/javascript" id="scr_6383fe7314bbec000bf32905">var s=document.createElement("script");s.src="https://scripts.converteai.net/27f37415-44e5-4ac6-a674-7ed2b3e48a82/players/6383fe7314bbec000bf32905/player.js",s.async=!0,document.head.appendChild(s);</script>
+
+            <!-- Botão -->
+            <div id="cta1" class="mt-4 d-none">
+              <a href="https://pay.kiwify.com.br/bvPepDl" class="a-btn" style="text-decoration: none;">
+                <span class="span-btn" >QUERO OBTER ACESSO AGORA!</span>
+                <span class="span-btn2">(atenção: vagas limitadas)</span>
               </a>
             </div>
-          </form>
-        </div>
 
-        <!--Right Col-->
-        <div class="w-full xl:w-3/5 p-12 overflow-hidden">
-          <img class="mx-auto w-full md:w-4/5 transform -rotate-6 transition hover:scale-105 duration-700 ease-in-out hover:rotate-6" src="./celular.png"/>
+            <!-- Icones 1 e 2-->
+            <div class="icone-1">
+              <img class="img-icone-branco" src="./assets/img/icone-rotina-branco.png" style="margin-top: 50px;">
+              <h1 style="margin-top: -70px;">Rotina Matinal</h1>
+              <h4>Tire 5 minutos todas as manhãs ao acordar e realize o procedimento para alcançar seu objetivo mais rápido.</h4>
+            </div>
+            <div class="icone-2">
+              <img class="img-icone-branco" src="./assets/img/icone-frutas-branco.png" style="margin-top: -40px;">
+              <h1 style="margin-top: -70px;">Alimentos Saudáveis</h1>
+              <h4>Você vai descobrir os alimentos mais utilizados pelos Ilkarianos e aprenderá como usá-los para ativar sua libido, disposição e muito mais.</h4>
+            </div>
+            
+            <!-- Icones 3 e 4 -->
+            <div class="icone-3">
+              <img class="img-icone-branco" src="./assets/img/icone-medico-branco.png" style="margin-top: -40px;">
+              <h1 style="margin-top: -70px;">Recomendação Médica</h1>
+              <h4>Tudo que lhe mostraremos neste ebook, foi passado pelo Dr. Drumond de uma forma mais fácil para você evitar doenças como diabetes, doenças cardiovasculares, câncer no esôfago e etc.</h4>
+            </div>
+
+            <div class="icone-4">
+              <img class="img-icone-branco" src="./assets/img/icone-cabeca-branco.png" style="margin-top: -40px;">
+              <h1 style="margin-top: -70px;">Bloqueio Mental</h1>
+              <h4>Revelaremos a você o segredo para bloquear sua mente de pensamentos negativos mesmo quando você pensar em desistir.</h4>
+            </div>
+            <footer class="bg-dark py-3 text-center" style="margin-top: 30px;">
+            
+            <!-- Termos de Uso e Política de Privacidade -->
+            <div class="text-white mt-4"><a href="termos.html" class="text-white"><b style="color: white;">Termos de Uso</b></a> <b style="color: white;">|</b> <a href="privacidade.html" class="text-white"><b style="color: white;">Política de Privacidade</b></a></div>
+            
+          </div>
         </div>
       </div>
-    </div>
+    </header>
 
-    <div style="background-color: rgb(45, 45, 45); padding: 20px 20px; width: 100%; margin: auto 0;">
-      <h4 style="text-align: center; padding: 20px;"><b>Essa página não tem nenhuma ligação com o Facebook INC. O Facebook é pertencente somente ao Meta INC.</b></h4>
-      <p style="text-align: center; color: white; padding: 0 20px; font-size: 12px;">Para garantir que as estratégias de treinamento levem a resultados proveitosos, é necessário utilizar todo o ensino das aulas conforme recomendado. Os resultados podem variar e dependem da vontade de cada aluno de colocar em prática as estratégias aprendidas. Lembre-se que cada um tem sua individualidade, experiência e rotinas, não compare seus resultados com os de outros alunos e prossiga dando o seu melhor a cada dia. A chave para obter resultados é a consistência.</p>
-      <!-- Termos de Uso e Política de Privacidade -->
-      <div class="text-white mt-4" style="text-align:center;"><a href="termos.html" target="_blank" class="text-white"><b style="color: white;">Termos de Uso</b></a> <b style="color: white;">|</b> <a href="privacidade.html" target="_blank" class="text-white"><b style="color: white;">Política de Privacidade</b></a></div>
-    </div>
+    <!-- Fundo Preto Oferta -->
+    <!-- <div class="corpo">
+      <div class="frase">
+        <p style="text-align: center; font-size: 18pt; font-family: Verdana, Geneva, sans-serif;">
+          <span>
+            Se você quer <strong style="color: red;">acabar agora com a vergonha de andar de biquíni de uma vez por todas</strong> 
+            e ser feliz com o corpo dos sonhos sem os furinhos, é só…
+          </span>
+        </p>
+        <p style="text-align: center;">
+          <span style="font-size: 24pt; font-family: verdana, geneva, sas-serif; color:#51ff00;">
+          <strong>Clicar no botão abaixo agora...</strong>
+          </span>
+        </p>
+        <p style="text-align: center;">
+          <span style="text-align: center; font-size: 18pt; font-family: Verdana, Geneva, sans-serif;">
+            <strong>E garanta sua vaga já!</strong> 
+          </span>
+        </p>
+        <p style="text-align: center;">
+          <span style="color: #ffff99; font-size: 12pt;">
+            <em>
+              <span style="font-family: arial, helvetica, sans-serif;">
+                “Após a clicar no botão, você será direcionado para plataforma para receber seu produto
+                na área de membros. Poderá acessar todo o material em seu celular, tablet, notebook ou computador”
+              </span>
+            </em>
+          </span>
+        </p>
+
+        Botão 2
+        <div id="cta2" class="mt-4 d-none">
+          <a href="https://pay.kiwify.com.br/bvPepDl" class="a-btn-2" style="text-decoration: none;">
+            <span class="span-btn" >QUERO MUDAR DE VIDA!</span>
+            <span class="span-btn2">(Vagas Limitadas)</span>
+          </a>
+        </div>
+      </div>
+    </div> -->
+
+    <!-- Fundo Branco Bonus -->
+    <!-- <div class="corpo2">
+      <div class="frase2">
+        <p style="text-align: center;">
+          <span style="font-family: verdana, geneva, sans-serif; color: black; font-size: 36pt;">
+            <strong>Você pensa que acabou?</strong>
+          </span>
+          <p>
+            <span style="font-family: verdana, geneva, sans-serif; color: black; font-size: 24pt;">
+              Se você tomar essa sábia decisão de <strong style="color: #fab300;">aproveitar essa oportunidade</strong>, você também receberá esse...
+            </span>
+          </p>
+        </p>
+
+        <h3 style="text-align: center;">
+          <span style="font-family: verdana, geneva, sans-serif; color: #fab300; font-size: 36pt;">
+            Bônus Incrível!
+          </span>
+        </h3>
+
+        <img src="./assets/img/livro-bonus.png" style="width: 400px;">
+
+        <p style="text-align: center;">
+          <span style="font-family: verdana, geneva, sans-serif; color: black; font-size: 24pt;">
+            O "Nutrição Essencial" é um ebook com <span style="font-family: verdana, geneva, sans-serif; color: #fab300; font-size: 24pt;">dicas valiosas</span>.
+          </span>
+        </p>
+
+        <p style="text-align: center;">
+          <span style="font-family: verdana, geneva, sans-serif; color: black; font-size: 18pt;">
+            Nele, você vai ficar por dentro dos <span style="font-family: verdana, geneva, sans-serif; color: #fab300; font-size: 18pt;">melhores alimentos</span> 
+            para você seguir na sua vida de <span style="font-family: verdana, geneva, sans-serif; color: #fab300; font-size: 18pt;">forma saudável</span> 
+            da melhor maneira possível! E também vai saber desde a pirâmide alimentar até as vantagens da dieta correta para perder peso!
+          </span>
+        </p>
+
+        <img src="./assets/img/icone-presente.png" style="width: 100px; margin-bottom: 15px;">
+
+        <p style="text-align: center;">
+          <span style="font-family: verdana, geneva, sans-serif; color: black; font-size: 18pt;">
+            Eu poderia vender separado e cobrar <strong>pelo menos R$127,00</strong> por este ebook... Mas ele será seu
+            <strong style="font-family: verdana, geneva, sans-serif; color: black; font-size: 18pt;">DE GRAÇA!</strong>
+          </span>
+        </p>
+
+        <p style="text-align: center;">
+          <span style="font-family: verdana, geneva, sans-serif; color: black; font-size: 18pt;">
+            Estamos dando esse presente pois sabemos o quanto é difícil manter uma vida saudável, então estamos
+            facilitando ao máximo para que você <strong>mude de vida!</strong>
+          </span>
+        </p>
+
+        <p style="text-align: center;">
+          <span style="font-family: verdana, geneva, sans-serif; color: black; font-size: 18pt;">
+            E como obter tudo isso?
+          </span>
+        </p>
+
+        <p style="text-align: center;">
+          <span style="font-size: 24pt; font-family: verdana, geneva, sas-serif; color:#fab300;">
+          <strong>Basta clicar no botão abaixo agora...</strong>
+          </span>
+        </p>
+
+        <p style="text-align: center;">
+          <span style="color: #fab300; font-size: 12pt;">
+            <em>
+              <span style="font-family: arial, helvetica, sans-serif;">
+                “Após a clicar no botão, você será direcionado para plataforma para receber seu produto
+                na área de membros. Poderá acessar todo o material em seu celular, tablet, notebook ou computador.
+                Você terá acesso imediato a esse material e muito mais!”
+              </span>
+            </em>
+          </span>
+        </p> -->
+
+        <!-- Botão 3 -->
+        <!-- <div id="cta3" class="mt-4 d-none">
+          <a href="https://pay.kiwify.com.br/bvPepDl" class="a-btn-3" style="text-decoration: none;">
+            <span class="span-btn" >QUERO MUDAR DE VIDA!</span>
+            <span class="span-btn2">(atenção: vagas limitadas)</span>
+          </a>
+        </div>
+      </div>
+    </div> -->
+
+    <!-- Fundo Preto Garantia -->
+    <!-- <div class="corpo">
+      <div class="frase">
+        <p style="text-align: center; font-size: 24pt; font-family: Verdana, Geneva, sans-serif;">
+          <span>
+            Você está <strong style="color: #51ff00">100% protegido</strong> pela nossa Garantia de 15 dias!
+          </span>
+        </p>
+        <p style="text-align: center; font-size: 14pt; font-family: Verdana, Geneva, sans-serif;">
+          <span>
+            Nossa Plataforma é <strong>100% Segura com um Sistema Avançado de Criptografia de Ponta a Ponta</strong>
+            garantido assim, total segurança.
+          </span>
+        </p>
+        <p style="text-align: center; font-size: 14pt; font-family: Verdana, Geneva, sans-serif;">
+          <span>
+            Por estar <strong>100% seguro do incrível trabalho que realizamos,</strong> darei 15 dias para você decidir se 
+            isso é para você. Se por algum motivo, você não estiver 100% satisfeito com o material, 
+            basta enviar um e-mail para nosso suporte 24h e reembolsaremos cada centavo do seu pequeno investimento…
+            <strong>Nenhuma pergunta será feita.</strong>
+          </span>
+        </p>
+        <div id="icone-garantia">
+          <img class="img-garantia" src="./assets/img/garantia-15-dias.png">
+        </div> 
+      </div>
+    </div> -->
+     
+
+    <script type="text/javascript">
+      setTimeout(() => {document.getElementById("cta1").classList.remove("d-none")}, 720000); // temporização da Call to Action (em milissegundos)
+    </script>
+
+    <script type="text/javascript">
+      setTimeout(() => {document.getElementById("cta2").classList.remove("d-none")}, 0); // temporização da Call to Action (em milissegundos)
+    </script>
+
+    <script type="text/javascript">
+      setTimeout(() => {document.getElementById("cta3").classList.remove("d-none")}, 0); // temporização da Call to Action (em milissegundos)
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="./assets/js/com.js"></script>
   </body>
 </html>
